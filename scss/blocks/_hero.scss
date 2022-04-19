@@ -1,0 +1,55 @@
+.hero__wrapper{
+  padding-top: 195px;
+  padding-bottom: 56px;
+  padding-left: 62px;
+  background-image: url(../../images/hero-bacround-img.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hero__heading{
+  margin: 0;
+  max-width: 469px;
+  font-family: 'Montserrat' Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 35px;
+line-height: 43px;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+
+.hero__desc{
+  margin: 0;
+ margin-top: 7px;
+ margin-bottom: 15px;
+  width: 493px;
+  font-family: 'Montserrat' Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.hero__button{
+  text-decoration: none;
+  padding: 14px;
+  font-family: 'Montserrat' Arial, Helvetica, sans-serif;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+color: #FFFFFF;
+background: #00094A;
+border-radius: 3px;
+}
+
+.hero_img{
+  margin-left: 40px;
+}
+
+// .hero__button::after{
+//   background-image: url(../../images/heo-group-icon.svg);
+//   background-size: contain;
+// }

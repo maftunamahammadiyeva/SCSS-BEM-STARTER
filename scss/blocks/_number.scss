@@ -1,0 +1,33 @@
+.number{
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.number__list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  .number__item+.number__item{
+    margin-left: 91px;
+  }
+
+  .number__heading{
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #00094A;
+  }
+
+  .number__desc{
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #00094A;
+  }
+}

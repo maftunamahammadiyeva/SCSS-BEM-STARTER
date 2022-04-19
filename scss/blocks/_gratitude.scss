@@ -1,0 +1,49 @@
+.gratitude__container{
+  padding-bottom: 100px;
+}
+
+.gratitude__text{
+  margin: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #00094A;
+}
+
+.gratitude__title{
+  margin: 0;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #00094A;
+}
+
+.gratitude__desc{
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 75px;
+  width: 582px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #00094A;
+  opacity: 0.8;
+}
+
+.gratitude__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.gratitude__item+.gratitude__item{
+  margin-left: 30px;
+}
+
+.gratitude__link-wrapp{
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+}

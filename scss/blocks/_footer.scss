@@ -1,0 +1,116 @@
+.footer{
+  background: #00094A;
+  padding: 90px 0;
+}
+
+.footer__heading{
+  width: 876px;
+  margin: 0;
+  font-family: 'Montserrat' Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+
+.footer__desc-top{
+  margin: 0;
+  margin-top: 15px;
+  font-family: 'Montserrat' Arial, Helvetica, sans-serif ;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer__bottom-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.footer__list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 84px;
+
+  .footer__item+.footer__item{
+    margin-left: 124px;
+  }
+
+  .footer__wrapper{
+    width: 313px;
+  }
+
+  .footer__wrapper:nth-child(even){
+    margin-top: 51px;
+  }
+
+  .footer__desc{
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Montserrat' Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.44;
+  }
+
+  .footer__link{
+    text-decoration: none;
+    font-family: 'Montserrat' Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  .footer--link{
+    margin-left: 25px;
+  }
+}
+
+
+.footer__link-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-left: 147px;
+  margin-top: 50px;
+
+  .footer__btn{
+    width: 404px;
+    padding: 27px 30px;
+    text-decoration: none;
+    background: linear-gradient(266.1deg, #58FFD1 -14.15%, #0CA09B 94.33%);
+    border-radius: 2px;
+    font-family: 'Montserrat' Arial, Helvetica, sans-serif;;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  .footer__btn-nex{
+    margin-top: 21px;
+    padding: 27px 30px;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    font-family: 'Montserrat' Arial, Helvetica, sans-serif;;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00094A;
+  }
+
+  .footer__img{
+    margin-left: 90px;
+  }
+
+  .footer__image{
+    margin-left: 140px;
+  }
+}
